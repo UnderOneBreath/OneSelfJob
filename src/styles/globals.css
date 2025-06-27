@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Bad+Script&family=DynaPuff:wght@400..700&family=Great+Vibes&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
 @import "tailwindcss";
 
 :root {
@@ -14,13 +15,86 @@
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --background: #0a0a0a;
+    /* --background: #0a0a0a; */
     --foreground: #ededed;
   }
 }
 
 body {
   background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: 'Open Sans', sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 600;
+  line-height: 100%;
+}
+
+h1 {
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 120%;
+}
+
+h2 {
+  font-size: 24px;
+}
+
+h3 {
+  font-size: 20px;
+}
+
+h4 {
+  font-size: 18px;
+}
+
+h5 {
+  font-size: 14px;
+}
+
+h6 {
+  font-size: 12px;
+}
+
+@layer components {
+  .section-container {
+    @apply flex w-[900px];
+  }
+  .section-content {
+    @apply flex flex-col relative w-full max-w-[600px] py-[40px];
+  }
+  .main-title {
+    @apply pb-[4px] pt-[40px] text-3xl font-bold;
+  }
+  .menu-link {
+    @apply text-gray-700 hover:text-blue-600 cursor-pointer;
+  }
+  .subtitle {
+    @apply pb-[4px] text-2xl font-semibold;
+  }
+  .text-lg {
+    @apply text-[18px];
+  }
+  .text-section {
+    @apply pb-[26px] text-lg;
+  }
+  .social-icon {
+    @apply w-[52px] h-[52px];
+  }
+  .social-row {
+    @apply flex py-2 gap-4;
+  }
+  .hero-container {
+    @apply flex relative w-full h-[217px] justify-center;
+  }
+  .hero-overlay {
+    @apply flex flex-col absolute w-[900px] top-1/2 -translate-y-1/2 items-start;
+  }
+  .hero-title {
+    @apply text-white text-3xl font-bold;
+  }
+  .hero-subtitle {
+    @apply text-white text-3xl font-light;
+  }
 }
