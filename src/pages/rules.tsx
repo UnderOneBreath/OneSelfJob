@@ -35,7 +35,7 @@ export default function RulesPage() {
                     </li>
                   </ul>
 
-                  <details open>
+                  <details>
                     <summary>
                       <h2>1. Термины и определения</h2>
                     </summary>
@@ -56,7 +56,7 @@ export default function RulesPage() {
                       <br />
                     </p>
                   </details>
-                  <details open>
+                  <details>
                     <summary>
                       <h2>2. Общие положения</h2>
                     </summary>
@@ -116,7 +116,7 @@ export default function RulesPage() {
                       <br />
                     </p>
                   </details>
-                  <details open>
+                  <details>
 								<summary>
 									<h2>3. Порядок использования Ресурса</h2>
 								</summary>
@@ -210,7 +210,7 @@ export default function RulesPage() {
 								</p>
 							</details>
 
-							<details open>
+							<details>
 								<summary>
 									<h2>
 										4. Порядок подбора Услуги и/или Товара. Стоимость и порядок
@@ -356,7 +356,7 @@ export default function RulesPage() {
 								</p>
 							</details>
 
-							<details open>
+							<details>
 								<summary>
 									<h2>
 										5. Права и обязанности Оператора и Пользователей. Гарантии и
@@ -741,7 +741,7 @@ export default function RulesPage() {
 								</p>
 							</details>
 
-							<details open>
+							<details>
 								<summary>
 									<h2>6. Ограничение ответственности</h2>
 								</summary>
@@ -882,7 +882,7 @@ export default function RulesPage() {
 								</p>
 							</details>
 
-							<details open>
+							<details>
 								<summary>
 									<h2>7. Дополнительные условия</h2>
 								</summary>
@@ -945,7 +945,7 @@ export default function RulesPage() {
 								</p>
 							</details>
 
-							<details open>
+							<details>
 								<summary>
 									<h2>8. Использование Сайта в тестовом режиме</h2>
 								</summary>
@@ -967,7 +967,7 @@ export default function RulesPage() {
 								</p>
 							</details>
 
-							<details open>
+							<details>
 								<summary>
 									<h2>9. Заключительные положения</h2>
 								</summary>

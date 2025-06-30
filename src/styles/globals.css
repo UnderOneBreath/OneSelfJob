@@ -57,9 +57,31 @@ h6 {
   font-size: 12px;
 }
 
+details {
+  padding: 8px 0 8px 0;
+}
+
+details > summary {
+  list-style: none;
+}
+
+details > summary::-webkit-details-marker {
+  display: none;
+}
+
+.bullet {
+  list-style-type: disc;
+  padding-left: 1.5rem;
+  margin-bottom: 1.5rem;
+}
+.bullet li {
+  margin-bottom: 0.5rem;
+  line-height: 1.6;
+}
+
 @layer components {
   .section-container {
-    @apply flex w-[900px];
+    @apply flex md:max-w-[900px];
   }
   .section-content {
     @apply flex flex-col relative w-full max-w-[600px] py-[40px];
@@ -89,7 +111,7 @@ h6 {
     @apply flex relative w-full h-[217px] justify-center;
   }
   .hero-overlay {
-    @apply flex flex-col absolute w-[900px] top-1/2 -translate-y-1/2 items-start;
+    @apply flex relative flex-col w-full md:w-[900px] justify-center p-4;
   }
   .hero-title {
     @apply text-white text-3xl font-bold;

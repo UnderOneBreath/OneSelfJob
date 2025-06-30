@@ -22,7 +22,7 @@ export default function PolicyPage() {
             <div className="rules_text_container">
                 <div className="rules_text">
                 {/* 1. Общие положения */}
-                <details open>
+                <details>
                   <summary>
                     <h2>1. Общие положения</h2>
                   </summary>
@@ -65,7 +65,7 @@ export default function PolicyPage() {
                   </p>
                 </details>
                 {/* 2. Способы, цели обработки ... */}
-                <details open>
+                <details>
                   <summary>
                     <h2>
                       2. Способы, цели обработки и действия, осуществляемые с Персональными данными. Права Пользователей (Заказчиков и Исполнителей) - субъектов Персональных данных
@@ -129,7 +129,7 @@ export default function PolicyPage() {
                   </p>
                 </details>
                 {/* 3. Принципы обработки Персональных данных */}
-                <details open>
+                <details>
                   <summary>
                     <h2>3. Принципы обработки Персональных данных</h2>
                   </summary>
@@ -155,7 +155,7 @@ export default function PolicyPage() {
                   </p>
                 </details>
                 {/* 4. Основания и сроки хранения Персональных данных */}
-                <details open>
+                <details>
                   <summary>
                     <h2>4. Основания и сроки хранения Персональных данных</h2>
                   </summary>
@@ -179,7 +179,7 @@ export default function PolicyPage() {
                   </p>
                 </details>
                 {/* 5. Меры по защите Персональных данных */}
-                <details open>
+                <details>
                   <summary>
                     <h2>5. Меры по защите Персональных данных</h2>
                   </summary>
@@ -201,7 +201,7 @@ export default function PolicyPage() {
                   </p>
                 </details>
                 {/* 6. Дополнения и изменения в настоящую Политику */}
-                <details open>
+                <details>
                   <summary>
                     <h2>6. Дополнения и изменения в настоящую Политику</h2>
                   </summary>
@@ -215,7 +215,7 @@ export default function PolicyPage() {
                   </p>
                 </details>
                 {/* 7. Заключительные положения */}
-                <details open>
+                <details>
                   <summary>
                     <h2>7. Заключительные положения</h2>
                   </summary>

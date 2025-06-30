@@ -25,7 +25,7 @@ export default function TermsPage() {
                   Настоящие Условия реализации товаров и услуг на ресурсе OneSelfJob (далее – <b>Условия Сервиса</b>) регулируют порядок использования Ресурса Пользователями в рамках применения (получения) ими соответствующего Сервиса и являются неотъемлемой частью (приложением) Соглашения с пользователем ресурса OneSelfJob (далее – <b>Соглашение</b>). Условия Сервиса дополняют и уточняют общие положения Соглашения применительно к функционалу Ресурса по использованию Пользователями Сервиса. В случае противоречия положениям Соглашения приоритет имеют положения настоящих Условий.
                 </p>
 
-                <details open>
+                <details>
                   <summary>
                     <h2>1. Термины и определения</h2>
                   </summary>
@@ -36,7 +36,7 @@ export default function TermsPage() {
                   </p>
                 </details>
 
-                <details open>
+                <details>
                   <summary>
                     <h2>2. Порядок предоставления и использования Сервиса</h2>
                   </summary>
@@ -47,7 +47,7 @@ export default function TermsPage() {
                   </p>
                 </details>
 
-                <details open>
+                <details>
                   <summary>
                     <h2>3. Функционал Сервиса</h2>
                   </summary>
@@ -65,7 +65,7 @@ export default function TermsPage() {
                   </p>
                 </details>
 
-                <details open>
+                <details>
                   <summary>
                     <h2>4. Условия Сделки и оплаты Услуги / Товара</h2>
                   </summary>
@@ -85,7 +85,7 @@ export default function TermsPage() {
                   </p>
                 </details>
 
-                <details open>
+                <details>
                   <summary>
                     <h2>5. Права и обязанности Общества</h2>
                   </summary>
@@ -98,7 +98,7 @@ export default function TermsPage() {
                   </p>
                 </details>
 
-                <details open>
+                <details>
                   <summary>
                     <h2>6. Права и обязанности Пользователей</h2>
                   </summary>
@@ -111,7 +111,7 @@ export default function TermsPage() {
                   </p>
                 </details>
 
-                <details open>
+                <details>
                   <summary>
                     <h2>7. Гарантии и заверения</h2>
                   </summary>
@@ -120,7 +120,7 @@ export default function TermsPage() {
                   </p>
                 </details>
 
-                <details open>
+                <details>
                   <summary>
                     <h2>8. Заключительные положения</h2>
                   </summary>
