@@ -10,9 +10,9 @@ export default function RulesPage() {
       	<div className="relative justify-center w-full max-w-[900px]">
         	<HeadbarMenu />
       	</div>
-		<div className="section-content">
-			<span className="main-title tp-[60px] text-[52px] text-[#3B82F6]">Пользовательское <br />соглашение</span>
-		</div>
+      <div className="section-content">
+        <div className="main-title tp-[60px] wrap-anywhere md:text-[52px] text-[#3B82F6]">Пользовательское <br />соглашение</div>
+		  </div>
       	<div className="section-container">
         	<div className="section-content pt-4">
           		<div className="max-w-[900px] pr-8">

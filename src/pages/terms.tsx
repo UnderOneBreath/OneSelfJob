@@ -10,8 +10,8 @@ export default function TermsPage() {
       <div className="relative justify-center w-full max-w-[900px]">
         <HeadbarMenu />
       </div>
-          <div className="section-content">
-			  <span className="main-title tp-[60px] text-[52px] text-[#3B82F6]">Условия <br />использования</span>
+      <div className="section-content">
+        <div className="main-title tp-[60px] wrap-anywhere md:text-[52px] text-[#3B82F6]">Условия <br />использования</div>
 		  </div>
       <div className="section-container">
         	<div className="section-content pt-4">
