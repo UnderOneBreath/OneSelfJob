@@ -7,17 +7,19 @@ const url = process.env.NEXT_PUBLIC_URL_CLIENT || "";
 export default function RulesPage() {
   return (
     <div className="flex flex-col min-h-screen min-w-[320px] items-center">
-      <div className="relative justify-center w-full max-w-[900px]">
-        <HeadbarMenu />
-      </div>
-      <div className="section-container">
-        <div className="section-container w-[600px]">
-          <div className="section-content max-w-full md:max-w-[900px]">
-            <span className="main-title tp-[60px] text-[52px] text-[#3B82F6]">Пользовательское соглашение</span>
-            <h1 className="main-title pt-[30px] tp-[30px]">
-              Соглашение с пользователем ресурса OneSelfJob от 01.10.2023
-            </h1>
-            <div className="rules_container">
+      	<div className="relative justify-center w-full max-w-[900px]">
+        	<HeadbarMenu />
+      	</div>
+		<div className="section-content">
+			<span className="main-title tp-[60px] text-[52px] text-[#3B82F6]">Пользовательское <br />соглашение</span>
+		</div>
+      	<div className="section-container">
+        	<div className="section-content pt-4">
+          		<div className="max-w-[900px] pr-8">
+            		<h1 className="main-title">
+              			Соглашение с пользователем ресурса OneSelfJob от 01.10.2023
+            		</h1>
+            		<div className="rules_container">
               <div className="rules_text_container">
                 <div className="rules_text">
                   <p>
@@ -1049,11 +1051,11 @@ export default function RulesPage() {
 							</details>
                 </div>
               </div>
-            </div>
-          </div>
-        </div>
-        <ContentsMenu></ContentsMenu>
-      </div>
+            		</div>
+        		</div>
+				<ContentsMenu></ContentsMenu>
+    		</div>
+      	</div>
     </div>
   );
 }

@@ -8,13 +8,13 @@ const links = [
 
 export default function ContentsMenu() {
   return (
-    <nav className="w-[200px] flex flex-col gap-2 py-4 px-2 bg-white">
+    <nav className="hidden md:flex w-[200px] flex-col gap-2 px-2 bg-white">
       <ul className="flex flex-col gap-1">
         {links.map(link => (
             <li key={link.href}>
             <Link
               href={link.href}
-              className="block px-3 py-2 rounded hover:bg-blue-50 hover:text-blue-600 transition-colors"
+              className="block px-3 py-2 hover:text-blue-600 transition-colors"
             >
               {link.label}
             </Link>

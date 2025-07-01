@@ -15,7 +15,7 @@ const HeadbarMenu = () => {
 
     return (
         <header className="w-full h-14 flex items-center px-4">
-            <div className="flex items-center justify-between w-full px-2">
+            <div className="flex items-center justify-between w-full">
                 <div className="flex-1 min-w-0">
                     <Link href="/" className="flex w-[32px]">
                         <Image
@@ -31,7 +31,7 @@ const HeadbarMenu = () => {
                 {/* Descktop menu */}
                 <nav className="hidden flex-1 md:flex gap-4 md:gap-6 justify-center">
                     {menuLinks.map(link => (
-                        <Link href={link.href}>
+                        <Link key={link.href} href={link.href}>
                             <span className="menu-link">{link.label}</span>
                         </Link>
                     ))}

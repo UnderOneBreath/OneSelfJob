@@ -37,29 +37,61 @@ h6 {
 }
 
 h1 {
-  font-size: 32px;
+  font-size: 28px;
   font-weight: 700;
   line-height: 120%;
 }
 
 h2 {
-  font-size: 24px;
+  font-size: 22px;
 }
 
 h3 {
-  font-size: 20px;
-}
-
-h4 {
   font-size: 18px;
 }
 
-h5 {
+h4 {
   font-size: 14px;
 }
 
-h6 {
+h5 {
   font-size: 12px;
+}
+
+h6 {
+  font-size: 8px;
+}
+p {
+  font-size: 16px;
+}
+
+@media (min-width: 768px) {
+  h1 {
+    font-size: 32px;
+  }
+
+  h2 {
+    font-size: 24px;
+  }
+
+  h3 {
+    font-size: 20px;
+  }
+
+  h4 {
+    font-size: 18px;
+  }
+
+  h5 {
+    font-size: 14px;
+  }
+
+  h6 {
+    font-size: 12px;
+  }
+  p {
+    font-size: 18px;
+  }
 }
 
 details {
@@ -68,6 +100,18 @@ details {
 
 details>summary {
   list-style: none;
+  cursor: pointer;
+  transition: background 0.2s;
+  padding: 6px 0;
+  user-select: none;
+}
+
+details > summary:hover {
+  background: #f0f4fa;
+}
+
+details > summary:active {
+  background: #e0e7ef;
 }
 
 details>summary::-webkit-details-marker {
@@ -91,11 +135,11 @@ details>summary::-webkit-details-marker {
   }
 
   .section-content {
-    @apply flex flex-col relative w-full max-w-[600px] py-[40px];
+    @apply flex relative w-full max-w-[900px] py-[40px] px-4;
   }
 
   .main-title {
-    @apply pb-[4px] pt-[40px] text-3xl font-bold;
+    @apply pb-[8px] text-3xl font-bold;
   }
 
   .menu-link {

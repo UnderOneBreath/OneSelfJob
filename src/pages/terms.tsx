@@ -10,15 +10,16 @@ export default function TermsPage() {
       <div className="relative justify-center w-full max-w-[900px]">
         <HeadbarMenu />
       </div>
+          <div className="section-content">
+			  <span className="main-title tp-[60px] text-[52px] text-[#3B82F6]">Условия <br />использования</span>
+		  </div>
       <div className="section-container">
-        <div className="section-container w-[600px]">
-
-            <div className="section-content max-w-full md:max-w-[900px]">
-            <span className="main-title text-[52px] text-[#3B82F6] tp-[60px]">Условия использования</span>
-            <h1 className="main-title tp-[30px]">
+        	<div className="section-content pt-4">
+            <div className="max-w-[900px] pr-8">
+              <h1 className="main-title">
                 Условия реализации товаров и услуг на ресурсе OneSelfJob от 01.10.2023
-            </h1>
-            <div className="rules_container">
+              </h1>
+              <div className="rules_container">
             <div className="rules_text_container">
               <div className="rules_text">
                 <p>
@@ -202,11 +203,10 @@ export default function TermsPage() {
                 </div>
               </div>
             </div>
-          </div>
-        </div>
-
-        </div>
-        <ContentsMenu></ContentsMenu>
+              </div>
+            </div>
+				    <ContentsMenu></ContentsMenu>
+    		  </div>
       </div>
     </div>
   );
