@@ -25,7 +25,12 @@ body {
   font-family: 'Open Sans', sans-serif;
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
   font-family: 'Open Sans', sans-serif;
   font-weight: 600;
   line-height: 100%;
@@ -61,11 +66,11 @@ details {
   padding: 8px 0 8px 0;
 }
 
-details > summary {
+details>summary {
   list-style: none;
 }
 
-details > summary::-webkit-details-marker {
+details>summary::-webkit-details-marker {
   display: none;
 }
 
@@ -74,6 +79,7 @@ details > summary::-webkit-details-marker {
   padding-left: 1.5rem;
   margin-bottom: 1.5rem;
 }
+
 .bullet li {
   margin-bottom: 0.5rem;
   line-height: 1.6;
@@ -81,41 +87,53 @@ details > summary::-webkit-details-marker {
 
 @layer components {
   .section-container {
-    @apply flex md:max-w-[900px];
+    @apply flex w-full justify-center;
   }
+
   .section-content {
     @apply flex flex-col relative w-full max-w-[600px] py-[40px];
   }
+
   .main-title {
     @apply pb-[4px] pt-[40px] text-3xl font-bold;
   }
+
   .menu-link {
     @apply text-gray-700 hover:text-blue-600 cursor-pointer;
   }
+
   .subtitle {
     @apply pb-[4px] text-2xl font-semibold;
   }
+
   .text-lg {
     @apply text-[18px];
   }
+
   .text-section {
     @apply pb-[26px] text-lg;
   }
+
   .social-icon {
     @apply w-[52px] h-[52px];
   }
+
   .social-row {
     @apply flex py-2 gap-4;
   }
+
   .hero-container {
     @apply flex relative w-full h-[217px] justify-center;
   }
+
   .hero-overlay {
     @apply flex relative flex-col w-full md:w-[900px] justify-center p-4;
   }
+
   .hero-title {
     @apply text-white text-3xl font-bold;
   }
+
   .hero-subtitle {
     @apply text-white text-3xl font-light;
   }
