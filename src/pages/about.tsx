@@ -16,10 +16,10 @@ export default function Home() {
           priority
         />
         <div className="hero-overlay">
-          <p className="hero-title">OneSelfJob</p>
-          <p className="hero-subtitle">
+          <h1 className="hero-title">OneSelfJob</h1>
+          <div className="hero-subtitle">
             Пространство, где талант <br /> становится брендом!
-          </p>
+          </div>
         </div>
       </div>
       <div className="section-container">
